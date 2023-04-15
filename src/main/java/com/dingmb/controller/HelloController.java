@@ -12,6 +12,8 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello() {
         System.out.println("dingmb");
+        System.out.println("11111");
+        System.out.println("22222");
         return "git hello";
     }
 }
